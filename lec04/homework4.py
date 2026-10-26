@@ -1,7 +1,7 @@
 
 def next_birthday(date, birthdays):
-    birthday = (1,1)
-    list_of_names = []
+    next_date = (1,1)
+    names = []
     upcoming_birthdays = [b_date for b_date in birthdays if b_date > date]
     if upcoming_birthdays:
         next_date = min(upcoming_birthdays)
